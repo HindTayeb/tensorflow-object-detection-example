@@ -15,6 +15,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# change this to our model URL
 MODEL_URL = 'http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2018_01_28.tar.gz'
 
 import base64
@@ -24,6 +25,7 @@ import pathlib
 import sys
 import tempfile
 
+# modify this to be suitable to our model
 MODEL_BASE = '/opt/models/research'
 sys.path.append(MODEL_BASE)
 sys.path.append(MODEL_BASE + '/object_detection')
