@@ -1,0 +1,25 @@
+item {
+    name: "Overlap with restoration -Clear margin-",
+    id: 1,
+    display_name: "R -Clear margin-"
+}
+item {
+    name: "Overlap with restoration -unclear margin-",
+    id: 2,
+    display_name: "R -unclear margin-"
+}
+item {
+    name: "Overlap within Enamel",
+    id: 3,
+    display_name: "within Enamel"
+}
+item {
+    name: "overlap at DEJ",
+    id: 4,
+    display_name: "at DEJ"
+}
+item {
+    name: "overlap within dentin",
+    id: 5,
+    display_name: "within dentin"
+}
