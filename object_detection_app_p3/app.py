@@ -28,7 +28,7 @@ MODEL_BASE = '/opt/models/research'
 sys.path.append(MODEL_BASE)
 sys.path.append(MODEL_BASE + '/object_detection')
 sys.path.append(MODEL_BASE + '/slim')
-PATH_TO_LABELS = MODEL_BASE + '/object_detection/data/mscoco_label_map.pbtxt' #change this path
+PATH_TO_LABELS = '/Teeth_label_map.pbtxt'  # MODEL_BASE + '/object_detection/data/mscoco_label_map.pbtxt'
 
 from decorator import requires_auth
 from flask import Flask
