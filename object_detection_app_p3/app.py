@@ -15,7 +15,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-MODEL_URL = 'https://www.dropbox.com/s/rxh9b740jh8xnvi/fine_tuned_model-20210409T153436Z-001.tar?dl=1' #our model for the bitewing xray obj detection
+MODEL_URL = 'https://www.dropbox.com/s/lnrz6padyrcao7c/fine_tuned_model.tar.gz?dl=1' #our model for the bitewing xray obj detection
 
 import base64
 import io
