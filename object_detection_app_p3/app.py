@@ -15,7 +15,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-MODEL_URL = 'https://www.dropbox.com/s/lnrz6padyrcao7c/fine_tuned_model.tar.gz?dl=1' #our model for the bitewing xray obj detection
+MODEL_URL = http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2018_01_28.tar.gz #'https://www.dropbox.com/s/lnrz6padyrcao7c/fine_tuned_model.tar.gz?dl=1' #our model for the bitewing xray obj detection
 
 import base64
 import io
@@ -28,7 +28,7 @@ MODEL_BASE = '/opt/models/research'
 sys.path.append(MODEL_BASE)
 sys.path.append(MODEL_BASE + '/object_detection')
 sys.path.append(MODEL_BASE + '/slim')
-PATH_TO_LABELS = '/Teeth_label_map.pbtxt'  # MODEL_BASE + '/object_detection/data/mscoco_label_map.pbtxt'
+PATH_TO_LABELS = MODEL_BASE + '/object_detection/data/mscoco_label_map.pbtxt' #'/Teeth_label_map.pbtxt' 
 
 from decorator import requires_auth
 from flask import Flask
