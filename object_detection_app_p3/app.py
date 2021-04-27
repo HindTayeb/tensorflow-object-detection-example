@@ -15,7 +15,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-MODEL_URL = 'http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2018_01_28.tar.gz' #'https://www.dropbox.com/s/lnrz6padyrcao7c/fine_tuned_model.tar.gz?dl=1' #our model for the bitewing xray obj detection
+MODEL_URL = 'https://www.dropbox.com/s/lnrz6padyrcao7c/fine_tuned_model.tar.gz?dl=1' #our model for the bitewing xray obj detection #'http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2018_01_28.tar.gz' 
 
 import base64
 import io
